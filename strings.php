@@ -9,6 +9,8 @@
         
         echo str_word_count("Hello world!");//counts the words in string
         echo "<hr />";
+        echo strlen("Hello world!");//counts the total letters in string
+        echo "<hr />";
 
 
         echo strrev("Hello world!"); // reverse the string
