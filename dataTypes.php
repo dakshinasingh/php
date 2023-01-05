@@ -3,7 +3,7 @@
     <body>
 
         <?php
-        echo "<p>Data Types in PHP</p><br>";
+        echo "<h2>Data Types in PHP</h2><br>";
         //string
         $x = 'Hello world!';
         echo $x;
