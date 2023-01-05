@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-echo "Hello World!";
-?>
+        <?php
+        echo "Hello World!";
+        ?>
 
-</body>
+    </body>
 </html>
