@@ -129,10 +129,10 @@
             var_dump($x <> $y);
             echo "<hr />";
 
+
             //Non-identity - Returns true if $x is not identical to $y
             var_dump($x !== $y);
             echo "<hr />";
-
         ?>
 
 

@@ -9,6 +9,9 @@
         //declaring indexed array
 
         $animals =array("cat","dog","cow");
+        $animal =array("lion","dog","cow");
+        $s=$animals.$animal;
+        echo $s;
         //accessing indexed array
         echo "$animals[0]"."<br>";
         echo "$animals[2]"."<br>";
