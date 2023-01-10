@@ -20,11 +20,18 @@
                 return "I am " . $this->fname . " ". $this->lname . " and my age is " . $this->age . "";       
             }
         }
-            $person1 = new Person('Dakshina', 'Singh' , 22);
-            $person2 = new Person('Daksh', 'Singh', 18);
-            echo $person1->hello();
-            echo "<br>";
-            echo $person2->hello();
+        $person1 = new Person('Dakshina', 'Singh' , 22);
+        echo $person1->hello();
+        echo "<br>";
+
+
+        //static function
+        class Person2{
+            public static function hello($fname, $lname, $age){
+                echo "I am " .$fname . " ". $lname . " and my age is " . $age . "";       
+            }
+        }
+        Person2::hello('Daksh', 'Singh', 18);
 
         ?>
 

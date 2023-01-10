@@ -26,8 +26,8 @@
         $grades=array("sam"=>"70","john"=>"60","bill"=>"85");
         echo "sam scored:".$grades["sam"]."<hr/>";
         //loop through an associative array
-        foreach($grades as $i => $grades){
-            echo "key=".$i.",value=".$grades."<br>";
+        foreach($grades as $i => $grade){
+            echo "key=".$i.",value=".$grade."<br>";
         }
         echo "<hr/>";
         //multidimensional arrays

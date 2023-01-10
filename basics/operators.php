@@ -6,6 +6,8 @@
     <body>
         <h2>operators in PHP</h1>
         <?php
+            $s=9;
+            print_r($s);
             $x = 40; 
             $y = 20;
             echo $x + $y;
