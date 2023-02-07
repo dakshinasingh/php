@@ -1,12 +1,18 @@
 <?php
 
+// $response=file_get_contents("https://randomuser.me/api");
+// $data=json_decode($response,true);
+// // var_dump($data);
+// echo $data["results"][0]["name"]["first"]."\n";
+
+
 if(!empty($_GET['name'])){
     $response=file_get_contents("https://api.agify.io?name={$_GET['name']}");
     $data=json_decode($response,true);
     $age=$data["age"];
 }
     
-    
+
 ?>
 
 
