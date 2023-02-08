@@ -20,6 +20,6 @@ $status_code=curl_getinfo($ch,CURLINFO_HTTP_CODE);
 
 curl_close($ch);
 echo $status_code, "\n";
-echo "<br>";
+echo "<hr>";
 echo $response,"\n";
 ?>
